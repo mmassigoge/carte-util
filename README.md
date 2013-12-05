@@ -6,7 +6,7 @@ Libreria con elementos utiles
 
 Para instalar: pip install git+https://github.com/mmassigoge/carte-util.git
 
-=wiggets=
+==wiggets==
 Ejempl de uso de Mapa con geocodificador en admin.py
 
 from widgets.widgets import GMapPointWidget
