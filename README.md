@@ -4,7 +4,7 @@ carte-util
 
 Libreria con elementos utiles
 
-Para instalar: pip install git+https://github.com/mmassigoge/carte-util.git
+Para instalar: pip install [git+https://github.com/mmassigoge/carte-util.git](git+https://github.com/mmassigoge/carte-util.git)
 
 wiggets
 -------
