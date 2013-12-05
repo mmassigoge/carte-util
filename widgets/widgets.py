@@ -7,7 +7,7 @@ class GMapPointWidget(forms.gis.PointWidget, forms.gis.BaseGMapWidget):
     mapa_attrs = ('map_options',)
 
     def __init__(self, *args, **kwargs):
-        super(GMapLineStringWidget, self).__init__(*args, **kwargs)
+        super(GMapPointWidget, self).__init__(*args, **kwargs)
         attrs = kwargs.pop('attrs', {})
         for key in self.mapa_attrs:
             setattr(self, key, attrs.pop(key, getattr(self, key)))
