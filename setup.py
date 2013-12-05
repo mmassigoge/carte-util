@@ -17,6 +17,7 @@ setup(
     url='http://www.carte.com.ar/',
     author='Matias Massigoge',
     author_email='mmassigoge@gmail.com',
+    install_requires=['django-floppyforms'],    
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
@@ -26,6 +27,6 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.7',
         'Topic :: Internet :: WWW/HTTP',
-        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',        
     ],
 )
