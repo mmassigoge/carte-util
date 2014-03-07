@@ -2,13 +2,13 @@ carte-util
 ==========
 
 
-Libreria con elementos utiles
+Toolbox useful for django admin
 
-Para instalar: pip install [git+https://github.com/mmassigoge/carte-util.git](git+https://github.com/mmassigoge/carte-util.git)
+For use: pip install [git+https://github.com/mmassigoge/carte-util.git](git+https://github.com/mmassigoge/carte-util.git)
 
 wiggets
 -------
-Ejemplo de uso de Mapa con Geocodificador en admin.py
+widget example including a geocoding field in a PointField
 
 ```python
 from widgets.widgets import GMapPointWidget
